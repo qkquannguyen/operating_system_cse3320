@@ -72,7 +72,7 @@ int main( int argc, char *argv[] )
 	int    image_width = 500;
 	int    image_height = 500;
 	int    max = 1000;
-	int numThreads = 1;
+	int numThreads;
 	int i;
 	int time_duration;
 	struct timeval begin;
