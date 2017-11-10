@@ -86,6 +86,7 @@ int main (int argc, char* argv[]) {
     gettimeofday(&end, NULL);
 
     // Calculate the time the program took in total
+    // The time displayed will be displayed in microseconds
     time_duration = ((end.tv_sec - begin.tv_sec) * 1000000 + (end.tv_sec - begin.tv_sec));
 
     // Display to the user how long the program took

@@ -166,3 +166,4 @@ int iteration_to_color( int i, int max )
 	int gray = 255*i/max;
 	return MAKE_RGBA(gray,gray,gray,0);
 }
+

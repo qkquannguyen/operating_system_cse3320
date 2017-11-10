@@ -11,8 +11,6 @@
 #include <sys/time.h>
 #include <unistd.h>
 
-// When Processes are not enough, might suffer page faults etc
-
 // ---------------------------------- Create our Image Structure ----------------------------------
 typedef struct {
 	struct bitmap * bm;
